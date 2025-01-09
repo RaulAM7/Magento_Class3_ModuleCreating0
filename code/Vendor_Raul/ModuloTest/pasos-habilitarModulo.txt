@@ -3,3 +3,16 @@ Una vez creado el folder structure basico del Modulo y los
 - archivos de configuracion (ModuleName/etc/module.xml)
 
 Tendremos que habilitar el modulo:
+
+1.- Habilitar el modulo:
+comando consola
+php bin/magento cache:clean
+
+comando consola
+php bin/magento setup:upgrade
+
+y si por si hubiera que enablear el modulo por alguna razon
+php bin/magento module:enable VendorName_ModuleName
+
+y para comprobar el estado del modulo en cuestion
+php bin/magento module:status
