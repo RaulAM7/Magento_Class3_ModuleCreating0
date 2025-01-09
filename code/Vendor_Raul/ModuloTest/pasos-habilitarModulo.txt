@@ -1,0 +1,5 @@
+Una vez creado el folder structure basico del Modulo y los 
+- archivos de registro (ModuleName/registration.php)
+- archivos de configuracion (ModuleName/etc/module.xml)
+
+Tendremos que habilitar el modulo:
