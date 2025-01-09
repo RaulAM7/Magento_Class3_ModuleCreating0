@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!—  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    
+    <!— Esta etiqueta module se encarga de especificar el name y version del modulo-->
+    <module name="Vendor_Module" setup_version="1.0.0">
+    
+        <!— Esta etiqueta squence declara las dependencias de las que depende el modulo, este depende del modulo Magento_Catalog -->
+        <sequence>
+            <module name="Magento_Catalog"/>
+        </sequence>
+    </module>
+
+
+</config>
