@@ -1,6 +1,6 @@
 {
     "name": "vendor_raul/modulotest",
-    "description": "A simple HelloWorld module for Magento 2.",
+    "description": "Este es un modulo completamente abstracto y de prueba para Magento 2.",
     "type": "magento2-module",
     "version": "1.0.0",
     "require": {
